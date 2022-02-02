@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/matter-js/0.14.2/matter.min.js"></script>
+    <title>Labirint</title>
+    <style>
+        body {
+            background: black !important;
+            margin: 0px;
+        }
+
+        h1 {
+            color: white;
+            font-size: 36px;
+
+        }
+
+        .hidden {
+            display: none !important;
+        }
+
+        .winner {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            position: absolute;
+            z-index: 1;
+            height: 100vh;
+            width: 100vw;
+        }
+
+        button {
+            margin-left: 10px;
+            width: 120px;
+            height: 30px;
+            font-size: 15px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="winner hidden">
+        <h1>Adashib yutib qoyding</h1>
+        <button>Qayta boshla</button>
+    </div>
+
+    <script src="index.js"></script>
+</body>
+
+</html>
